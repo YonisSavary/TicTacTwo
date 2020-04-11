@@ -1,0 +1,28 @@
+<html>
+    <%- include('./bases/head.ejs'); %>
+    <body>
+        <input id="partyIdInput" type="hidden" value="<%= id %>"/>
+        <span id="victorySpan"></span>
+        <div class="centered">
+            <table id="gameField">
+                <tr>
+                    <td id="0" class="inactive cell"></td>
+                    <td id="1" class="inactive cell"></td>
+                    <td id="2" class="inactive cell"></td>
+                </tr>
+                <tr>
+                    <td id="3" class="inactive cell"></td>
+                    <td id="4" class="inactive cell"></td>
+                    <td id="5" class="inactive cell"></td>
+                </tr>
+                <tr>
+                    <td id="6" class="inactive cell"></td>
+                    <td id="7" class="inactive cell"></td>
+                    <td id="8" class="inactive cell"></td>
+                </tr>
+            </table>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/javascripts/TicTacTwoClient.js"></script>
+    </body>
+</html>

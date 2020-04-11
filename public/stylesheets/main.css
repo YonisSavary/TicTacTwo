@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+:root
+{
+    --bg: rgb(29, 29, 49);
+    --bg-light: rgb(47, 47, 80);
+    --fg: white;
+    --acc: rgb(246, 161, 161);
+    --acc-2: rgb(213, 246, 161);
+    --acc-dark: rgb(233, 89, 89);
+
+    font-family: "Oswald";
+    font-size: 40px;
+    background-color: var(--bg);
+    color: var(--fg);
+}
+
+.centered
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.accentuated
+{
+    color: var(--acc);
+}
+
+.clickable
+{
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.clickable:hover
+{
+    background-color: var(--acc-dark);
+}
+
+.little
+{
+    font-size: 0.8rem;
+}
+
+td
+{
+    width: 3rem;
+    height: 3rem;
+}
+
+.inactive
+{
+    background-color: #EEE;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "tictactwo",
+  "version": "1.0.0",
+  "description": "Play tictactoe with other players online",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YonisSavary/TicTacTwo.git"
+  },
+  "author": "Yonis Savary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YonisSavary/TicTacTwo/issues"
+  },
+  "homepage": "https://github.com/YonisSavary/TicTacTwo#readme",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}

@@ -1,0 +1,15 @@
+<html>
+    <%- include('./bases/head.ejs'); %>
+    <body>
+        <div class="centered">
+            <h1>Tic Tac <span class="accentuated">TWO</span></h1>
+            <% if (locals.error) { %>
+                <p class="accentuated"><%= error %></p>
+            <% } %>
+            <a href="/shuffle">
+                <img src="/images/shuffle.png" class="clickable"/>
+            </a>
+            <p class="little">Play TicTacToe with another human-being !</p>
+        </div>
+    </body>
+</html>
